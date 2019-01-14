@@ -1,6 +1,5 @@
 package tests;
 
-//import Util.BD;
 import Util.TD;
 import models.Record;
 import models.TreapInEr;
