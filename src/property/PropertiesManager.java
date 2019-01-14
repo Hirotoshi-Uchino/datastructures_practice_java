@@ -9,7 +9,8 @@ public class PropertiesManager {
     public PropertiesManager(String filename){
         conf = new Properties();
         try {
-            conf.load(new FileInputStream(filename));
+//            conf.load(new FileInputStream(filename));
+            conf.load(new InputStreamReader(new FileInputStream(filename), "UTF-8"));
         } catch (IOException e) {
             System.err.println("Cannot open " + filename + ".");
             e.printStackTrace();
