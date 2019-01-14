@@ -1,6 +1,7 @@
 out/
 .idea/
 classes/
+config/
 
 *.iml
 .DS_Store
