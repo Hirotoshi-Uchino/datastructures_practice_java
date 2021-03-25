@@ -1,11 +1,11 @@
-Excample to compile
+Compilation
 ===========================
-Execute following commond at "src" directory
+Execute following command in `src` directory
 ::
 
     javac -d ${YOUR_CLASS_PATH} Main.java
 
-Example to execute
+Execution
 ==========================
 ::
 
